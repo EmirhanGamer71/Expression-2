@@ -1,2 +1,4 @@
 owner():setColor(vec(255, 255, 0))
+concmd("say .sel 5")
+concmd("say .vol 100")
 selfDestruct()
