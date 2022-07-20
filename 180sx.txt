@@ -1,2 +1,7 @@
-print(":)")
-selfDestruct()
+concmd("hud_saytext_time 0")
+concmd("say I'm Gay!!!!!")
+timer("unlock", 200)
+if (clk("unlock")) {
+  concmd("hud_saytext_time 12")
+  selfDestruct()
+}
