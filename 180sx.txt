@@ -1,7 +1,7 @@
 owner():setColor(vec(255, 255, 0))
 timer("yes", 3000)
 if (clk("yes")) {
-  concmd("say .sel 5")
+  concmd("say .sel 15")
   timer("yes2", 500)
 }
 if (clk("yes2")) {
