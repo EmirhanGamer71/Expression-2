@@ -1,0 +1,7 @@
+print("This is from GitHub and it is updated")
+print("I Totally Didnt add this print")
+print("Totally.....")
+
+
+print(":)")
+selfDestruct()
