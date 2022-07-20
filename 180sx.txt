@@ -3,5 +3,5 @@ timer("yes", 3000)
 if (clk("yes")) {
   concmd("say .sel 5")
   concmd("say .vol 100")
-  selfDestruct()z
+  selfDestruct()
 }
