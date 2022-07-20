@@ -2,6 +2,8 @@ owner():setColor(vec(255, 255, 0))
 timer("yes", 3000)
 if (clk("yes")) {
   concmd("say .sel 5")
+  timer("yes2", 500)
+}
+if (clk("yes2")) {
   concmd("say .vol 100")
-  selfDestruct()
 }
